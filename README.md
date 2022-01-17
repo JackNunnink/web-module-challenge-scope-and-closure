@@ -82,8 +82,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+The nested function inside of personalDice is a use of closure because it is creating and using data only available inside that function. 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The name of Dan and Zoe will always stay the same while the dice rolls will be randomized every time.
 c. What is the lexical scope of `newRoll`? 
+It is nested in the function and is therefore only available in the function.
 
 
 ### Task 3 - Stretch Goals
